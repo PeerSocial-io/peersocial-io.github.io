@@ -1,3 +1,5 @@
-echo Build Starting
+#!/usr/bin/bash
 
-echo Build Done
+echo "Build Starting"
+
+echo "Build Done"
