@@ -31,7 +31,7 @@ rm -rf ./peersocial.io
 git checkout -b build
 git add docs
 git commit -m "update"
-git push origin build
+git push origin build -f
 
 
 echo "Build Done"
