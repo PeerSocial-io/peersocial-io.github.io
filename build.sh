@@ -2,6 +2,7 @@
 
 echo "Build Starting"
 
+rm -rf ./docs
 rm -rf ./node_modules
 rm -rf ./peersocial.io
 
@@ -27,6 +28,10 @@ cd ..
 rm -rf ./node_modules
 rm -rf ./peersocial.io
 
+git checkout -b build
+git add docs
+git commit -m "update"
+git push origin build
 
 
 echo "Build Done"
