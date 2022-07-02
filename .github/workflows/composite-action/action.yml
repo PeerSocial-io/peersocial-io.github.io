@@ -7,13 +7,7 @@ runs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18  
-    - run: npm install
-      shell: bash
-    - run: npm ci
-      shell: bash
-    - run: npm run build --if-present
-      shell: bash
-    - run: npm test
+    - run: sh ./build.sh
       shell: bash
   
     
